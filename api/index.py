@@ -151,13 +151,3 @@ def delete(id:int):
         return "deleted successful"
     else:
         return "unsuccesful"
-
-
-
-
-
-
-
-
-
- 
