@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "Met projects/task_manager.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "Met projects/task_manager.py"
+      }
+    ]
+  }
