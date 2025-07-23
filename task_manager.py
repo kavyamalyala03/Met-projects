@@ -8,6 +8,10 @@ def connect_db():
  
 app = FastAPI()
 
+@app.get("/")
+def read_root():
+    return {"message": "hello from Fastapi on vercel"}
+
 @app.get("/users")
 def read_users():
 
